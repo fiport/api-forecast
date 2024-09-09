@@ -30,7 +30,7 @@ return new class extends Migration
             $table->integer('visibility');
             $table->string('is_day');
             $table->foreignId('weather_id')
-                ->constrained('Weather')
+                ->constrained('weather')
                 ->onDelete('cascade');
             $table->timestamps();
         });

@@ -10,7 +10,18 @@ Bem-vindo ao seu projeto Laravel! Este guia irá orientá-lo na configuração e
 
 ---
 
+
 ## ⚙️ Configurando o Projeto
+
+Após clonar o repositório, acesse a pasta do projeto e execute
+
+```bash
+cp .env.example .env
+```
+
+```bash
+composer install
+```
 
 ### 1️⃣ Subindo o ambiente Docker
 
